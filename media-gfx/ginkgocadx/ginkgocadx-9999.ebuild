@@ -30,6 +30,8 @@ pkg_setup() {
 }
 
 src_prepare() {
+	default
+
 	# clang++ fails otherwise
 	sed -i -e 's#operator const std::string *() const#operator std::string () const#g' cadxcore/api/controllers/imodulecontroller.*
 }

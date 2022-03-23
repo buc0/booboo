@@ -4,7 +4,7 @@
 
 EAPI=6
 
-inherit git-r3 cmake-utils
+inherit git-r3 cmake
 
 DESCRIPTION="an advanced DICOM viewer and dicomizer that can also be used to convert png, jpeg, bmp, pdf, tiff to DICOM files"
 HOMEPAGE="http://ginkgo-cadx.com/"
